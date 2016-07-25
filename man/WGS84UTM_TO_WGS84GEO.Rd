@@ -31,14 +31,15 @@ Using Equation 3,4,5 and iterations to compute the values.
 
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 
 }
 \author{
 Jinlong Zhang
 }
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. Providing 
+coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{
@@ -55,7 +56,6 @@ WGS84UTM_TO_WGS84GEO(2483568, 209192, zone = 50)
 ### $longitude
 ### [1] 114.174807232072
 ### 
-
 
 ### The answer from the explanatory notes is 
 ### 22 + 26/60 + 1.16/3600 = 22.433655555555557015

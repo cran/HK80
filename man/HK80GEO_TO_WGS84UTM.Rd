@@ -20,7 +20,8 @@ longitude in decimal degrees
 }
 }
 \details{
-This function convert the HK80GEO coordinates to HK80UTM, and convert the intermediate output into WGS84UTM. More details can be found on page C4. 
+This function convert the HK80GEO coordinates to HK80UTM, and convert the intermediate output into WGS84UTM. 
+More details can be found on page C4. 
 }
 
 \value{
@@ -32,14 +33,15 @@ This function convert the HK80GEO coordinates to HK80UTM, and convert the interm
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 
 \author{
 Jinlong Zhang
 }
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. Providing 
+coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{

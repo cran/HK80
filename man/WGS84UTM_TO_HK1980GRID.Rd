@@ -25,7 +25,8 @@ Numerical, either 49 or 50.
 }
 
 \details{
-This function converts the coordinates to WGS84GO, and then to HK80GO and eventually to HK1980GRID.
+This function converts the coordinates to WGS84GO, 
+and then to HK80GO and eventually to HK1980GRID.
 }
 \value{
 \item{N}{Numerical, Northern coordinate in meters. }
@@ -34,13 +35,14 @@ This function converts the coordinates to WGS84GO, and then to HK80GO and eventu
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 \author{
 Jinlong Zhang
 }
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. Providing 
+coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{
@@ -58,10 +60,9 @@ WGS84UTM_TO_HK1980GRID(2471279, 205494, zone = 50)
 
 ######################
 #### Results from http://www.geodetic.gov.hk/smo/tform/tform.aspx
-#### 820351.389 	832591.320
+#### 820351.389, 832591.320
 
 }
-
 
 \keyword{ WGS84UTM }
 \keyword{ HK1980GRID }

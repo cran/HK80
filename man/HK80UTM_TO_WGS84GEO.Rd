@@ -23,7 +23,8 @@ zone, UTM zone number, for Hong Kong, either 49 or 50
 }
 }
 \details{
-This function converts the HK80UTM coordinates into WGS84UTM coordinates first, and convert the intermediate results into WGS84GEO coordinates (latitude and longitude)
+This function converts the HK80UTM coordinates into WGS84UTM coordinates
+ first, and convert the intermediate results into WGS84GEO coordinates (latitude and longitude)
 }
 \value{
 \item{latitude }{latitude in decimal degrees}
@@ -32,7 +33,7 @@ This function converts the HK80UTM coordinates into WGS84UTM coordinates first, 
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 
 \author{
@@ -40,7 +41,8 @@ Jinlong Zhang
 }
 
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. 
+Providing coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{

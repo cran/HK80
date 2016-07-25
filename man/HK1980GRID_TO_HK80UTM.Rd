@@ -20,7 +20,9 @@ Numeric, Eastern coordinate in meters
 }
 }
 \details{
-This function converts the HK1980GRID coordinates into HK80GEO coordinates (latitude and longitude) first, and converts the later into HK80UTM coordinates. 
+This function converts the HK1980GRID coordinates into HK80GEO 
+coordinates (latitude and longitude) first, and converts the later 
+into HK80UTM coordinates. 
 }
 \value{
 \item{N}{Northern coordinate in meters}
@@ -30,13 +32,14 @@ This function converts the HK1980GRID coordinates into HK80GEO coordinates (lati
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 \author{
 Jinlong Zhang
 }
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. Providing 
+coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{
@@ -48,7 +51,6 @@ The coordinates should be within the range of Hong Kong. Providing coordinates o
 ##### the conversion is not available on the manual nor online.
 options(digits = 15)
 HK1980GRID_TO_HK80UTM(832699, 836055)
-
 }
 
 \keyword{ HK1980GRID }

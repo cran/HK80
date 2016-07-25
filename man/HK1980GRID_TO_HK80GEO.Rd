@@ -20,7 +20,9 @@ Numeric, Eastern coordinate in meters
 }
 }
 \details{
-This function uses equation 3, 4, 5 to convert the HK1980GRID coordinates into HK80GEO coordinates. More details could be found on the explanatory notes Page C9. 
+This function uses equation 3, 4, 5 to convert the HK1980GRID 
+coordinates into HK80GEO coordinates. More details could be found 
+on the explanatory notes Page C9. 
 }
 \value{
 \item{latitude }{latitude in decimal degrees}
@@ -29,7 +31,7 @@ This function uses equation 3, 4, 5 to convert the HK1980GRID coordinates into H
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 \author{
 Jinlong Zhang

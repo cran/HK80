@@ -23,7 +23,9 @@ zone, numeric, either 49 or 50
 }
 }
 \details{
-This functions uses a simplified relationship to convert the coordinates. If zone is 49, res.N = N + 195, res.E = E - 245; if zone is 50, res.N = N + 205, res.E = E - 260
+This functions uses a simplified relationship to convert the coordinates. 
+If zone is 49, res.N = N + 195, res.E = E - 245; 
+if zone is 50, res.N = N + 205, res.E = E - 260
 }
 \value{
 \item{N }{Northern coordinates in meters}
@@ -33,13 +35,14 @@ This functions uses a simplified relationship to convert the coordinates. If zon
 \references{
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
 }
 \author{
 Jinlong Zhang
 }
 \note{
-The coordinates should be within the range of Hong Kong. Providing coordinates outside Hong Kong will lead to wrong results.
+The coordinates should be within the range of Hong Kong. Providing 
+coordinates outside Hong Kong will lead to wrong results.
 }
 
 \seealso{

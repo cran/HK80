@@ -23,16 +23,19 @@ zone, UTM zone, either 49 or 50 for Hong Kong.
 }
 }
 \details{
-This function converts the coordinates to HK80GEO first, and convert the intermediate results into HK1980GRID coordinates. 
+This function converts the coordinates to HK80GEO first, and 
+convert the intermediate results into HK1980GRID coordinates. 
 }
 \value{
 \item{N}{Northern coordinate in meters}
 \item{E}{Eastern coordinate in meters}
 }
 \references{
+
 Survey & Mapping Office Lands Department, Hong Kong Government (1995). 
 Explanatory Notes on Geodetic Datums in Hong Kong, available at: 
-http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf
+\url{http://www.geodetic.gov.hk/smo/gsi/data/pdf/explanatorynotes.pdf}
+
 }
 \author{
 Jinlong Zhang
